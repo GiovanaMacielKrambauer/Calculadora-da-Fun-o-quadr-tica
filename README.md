@@ -1,0 +1,1 @@
+# Calculadora-da-Fun-o-quadr-tica
