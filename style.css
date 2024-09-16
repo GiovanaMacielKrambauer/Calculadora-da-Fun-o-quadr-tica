@@ -1,0 +1,13 @@
+header{
+    text-align: center;
+    background-color: grey;
+    width: auto;
+    margin: 0;
+    height: 100px;
+    position: relative;
+}
+
+header h1{
+    position: relative;
+    top: 10px;
+}

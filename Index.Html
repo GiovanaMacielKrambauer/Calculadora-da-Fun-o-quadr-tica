@@ -4,16 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<header>
     <h1>Resolução de Equação do Segundo Grau</h1>
-    <p>Equação na forma: ax² + bx + c = 0</p>
-    a: <input type="text" name="" id="" placeholder="">
-    b: <input type="text" name="" id="" placeholder="">
-    c: <input type="text" name="" id="" placeholder="">
-    <button>Resolver</button>
-    <h2>Resultados:</h2>
-    <p>Delta = 4. Raízes: x = 0.00, x = -2.00</p>
-    <h2>Gráfico da equação:</h2>
+    <h2>Equação na forma: ax² + bx + c = 0</h2>
+</header>
+<main>
+    a: <input type="number" name="" id="val_a" value="1"><br>
+    b: <input type="number" name="" id="val_b" value="0"><br>
+    c: <input type="number" name="" id="val_c" value="0"><br>
+
+    <button onclick="calcula()">Calcular</button>
+
+    <h2>Resposta</h2>
+    <span id="res_1"></span><br>
+    <span id="res_2"></span><br>
+
+    <script src="script.js"></script>
+</main>
 </body>
 </html>
